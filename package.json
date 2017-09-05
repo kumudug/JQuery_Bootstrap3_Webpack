@@ -1,0 +1,40 @@
+{
+  "name": "jquery_bootstrap3_webpack",
+  "version": "1.0.0",
+  "description": "Loading JQuery, Bootstrap3 using Webpack",
+  "main": "index.ts",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumudug/JQuery_Bootstrap3_Webpack.git"
+  },
+  "author": "Kumudu Gunasekara",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/kumudug/JQuery_Bootstrap3_Webpack/issues"
+  },
+  "homepage": "https://github.com/kumudug/JQuery_Bootstrap3_Webpack#readme",
+  "dependencies": {
+    "@types/jquery": "^3.2.12",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "expose-loader": "^0.7.3",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.3.4",
+    "typescript": "^2.5.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
